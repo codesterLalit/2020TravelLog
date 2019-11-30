@@ -82,3 +82,12 @@ h1{
 .upload-form{
   background-color:white;
 }
+
+.card-stacked p{
+  color:black;
+}
+
+.feeds h4{
+  background-color:rgba(255, 255, 255, 0.507);
+  border-radius: 10px;
+}
