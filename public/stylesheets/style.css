@@ -1,0 +1,84 @@
+body {
+  padding: 0px;
+  margin:0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+h1{
+  color:blue;
+}
+.main-container{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0px;
+  box-sizing: content-box;
+  height: 100vh;
+  width: 100%;
+  /* background-color:red; */
+  background: url("../images/main.jpg")  no-repeat center;
+  background-size: cover;
+}
+
+.container{
+  padding:10px;
+  background-color: rgba(255, 255, 255, 0.884);;
+}
+
+.container h3, h4, p{
+  text-align: center;
+  color:darkblue
+}
+
+.main-container a{
+  margin:auto;
+}
+
+.feed-container{
+  /* justify-content: center; */
+  margin: 0px;
+  box-sizing: content-box;
+  height: auto;
+  width: 100%;
+  background-color:rgb(99, 41, 126);
+  /* background-color:red; */
+  /* background: url("../images/main.jpg")  no-repeat center; */
+  background-size: cover;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  color:black;
+}
+
+.navigation p {
+  color:black;
+  font-weight: bold;
+  font-size: 20px;
+}
+/* 
+.av-image{
+  heig
+} */
+
+.sidebars .card-content p{
+  font-weight: bold;
+  font-size:20px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.sidav{
+  margin-top:60px;
+}
+
+.upload-form{
+  background-color:white;
+}

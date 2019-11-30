@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Trave2020 Log</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+      <div class="main-container">
+            <div class="row upload-form container z-depth-4">
+            <div class="row upload-form ">
+              <h3>Create Diaries</h3>
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="title" type="text" name="title" class="validate">
+                  <label for="title">Title</label>
+                </div>
+                <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Somewords about your Experience...</label>
+                </div>
+                <div class="input-field col s12">
+                  <form action="#">
+                    <div class="file-field input-field">
+                      <div class="btn">
+                        <span>File</span>
+                        <input type="file" multiple>
+                      </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Upload one or more files">
+                  </div>
+              </div>
+              </form>
+                </div>
+                <button class="btn waves-effect waves-light center" type="submit" name="action">Upload
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </form>
+  </div>
+      </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
